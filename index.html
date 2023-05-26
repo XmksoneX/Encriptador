@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="encriptador alura" />
+    
+
+    <title>Encriptador</title>
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/segurity_prueba.svg">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Space+Mono&display=swap"
+        rel="stylesheet"> 
+</head>
+<body>
+    <video src="imagenes/back3.mp4" autoplay loop poster="imagenes/prev.png"> </video>
+    <header>
+        <div class="container__header">
+            <div class="header">
+                <a> 
+                    <img class="logo" src="imagenes/alura.svg">
+                </a>
+                <a> <p class="tit"> Encriptador XmksoneX </p></a>
+            </div> 
+        </div>
+        
+    </header>
+    <main>
+        <article class="container">
+            <section class="texten" id="texten">
+                <textarea class="inputtextarea" id="textoInput" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                <div class="content_botones">
+                    <span class="info">
+                        <img src="imagenes/!.svg" alt="advertencia" />
+                        Solo letras minúsculas y sin acentos
+                    </span>
+                    <div class="botones">
+                        <button id="button_encriptar" class="button_encriptar">Encriptar</button>
+                        <button id="button_desencriptar" class="button_desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="right" id="rigth">
+                <img id="textencrip" class="textencrip" src="imagenes/munheco.svg" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="textoInfo" class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="button_copiar bn_ocultar" id="button_copiar">Copiar</button>
+            </section>
+        </article>
+    </main>
+    <footer class="footer ">
+        <p class="creador">Create by XmksoneX
+        </p>
+        <div>
+            <a href="https://github.com/XmksoneX" target="_blank">
+                <img class="links" src="imagenes/githuba.svg" />
+            </a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</body>
+
+</html>
